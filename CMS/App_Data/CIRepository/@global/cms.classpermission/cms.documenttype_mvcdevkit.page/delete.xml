@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.classpermission>
+  <ClassID>
+    <CodeName>MvcDevkit.Page</CodeName>
+    <GUID>d8a85364-8eb3-474b-a0b8-6c9a4ff26087</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </ClassID>
+  <PermissionDescription>{$permissiondescription.document.delete$}</PermissionDescription>
+  <PermissionDisplayInMatrix>True</PermissionDisplayInMatrix>
+  <PermissionDisplayName>{$general.delete$}</PermissionDisplayName>
+  <PermissionGUID>07dcb6fd-c103-49c7-8c3a-d6c1b509d786</PermissionGUID>
+  <PermissionName>Delete</PermissionName>
+  <PermissionOrder>5</PermissionOrder>
+</cms.classpermission>

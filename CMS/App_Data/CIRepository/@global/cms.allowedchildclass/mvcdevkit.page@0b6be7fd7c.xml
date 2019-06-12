@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.allowedchildclass>
+  <Parent>
+    <CodeName>MvcDevkit.Page</CodeName>
+    <GUID>d8a85364-8eb3-474b-a0b8-6c9a4ff26087</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </Parent>
+  <Bindings>
+    <Binding id="cms.documenttype_CMS.Root">
+      <ParentClassID>
+        <CodeName>CMS.Root</CodeName>
+        <GUID>a585aea3-10b5-4b74-9aad-747fcce72493</GUID>
+        <ObjectType>cms.documenttype</ObjectType>
+      </ParentClassID>
+    </Binding>
+  </Bindings>
+</cms.allowedchildclass>

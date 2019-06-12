@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- This is a CI serialization file for /Homepage -->
+<cms.node>
+  <NodeACLID>
+    <GUID>0072d163-58b7-495f-bbcd-1f15eaadf7e3</GUID>
+    <ObjectType>cms.acl</ObjectType>
+    <Site>
+      <CodeName>MvcDevkit</CodeName>
+      <GUID>991d49f8-cabe-4944-8d6e-669374a75921</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </NodeACLID>
+  <NodeAlias>Homepage</NodeAlias>
+  <NodeClassID>
+    <CodeName>MvcDevkit.Page</CodeName>
+    <GUID>d8a85364-8eb3-474b-a0b8-6c9a4ff26087</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </NodeClassID>
+  <NodeGUID>6a5ca139-7b50-4d09-800c-fe210e15edeb</NodeGUID>
+  <NodeInheritPageLevels>/</NodeInheritPageLevels>
+  <NodeInheritPageTemplate>False</NodeInheritPageTemplate>
+  <NodeIsACLOwner>False</NodeIsACLOwner>
+  <NodeIsContentOnly>True</NodeIsContentOnly>
+  <NodeName>Homepage</NodeName>
+  <NodeOrder>1</NodeOrder>
+  <NodeOwner>
+    <CodeName>administrator</CodeName>
+    <GUID>6415b8ce-8072-4bcd-8e48-9d7178b826b7</GUID>
+    <ObjectType>cms.user</ObjectType>
+  </NodeOwner>
+  <NodeParentID>
+    <CodeName>/</CodeName>
+    <GUID>acdd2058-bde0-4c9d-8332-45f417220571</GUID>
+    <ObjectType>cms.node</ObjectType>
+    <Site>
+      <CodeName>MvcDevkit</CodeName>
+      <GUID>991d49f8-cabe-4944-8d6e-669374a75921</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </NodeParentID>
+  <NodeSiteID>
+    <CodeName>MvcDevkit</CodeName>
+    <GUID>991d49f8-cabe-4944-8d6e-669374a75921</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </NodeSiteID>
+  <NodeTemplateForAllCultures>True</NodeTemplateForAllCultures>
+</cms.node>

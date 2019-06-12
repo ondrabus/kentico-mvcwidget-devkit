@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.classpermission>
+  <ClassID>
+    <CodeName>MvcDevkit.Page</CodeName>
+    <GUID>d8a85364-8eb3-474b-a0b8-6c9a4ff26087</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </ClassID>
+  <PermissionDescription>{$permissiondescription.document.createanywhere$}</PermissionDescription>
+  <PermissionDisplayInMatrix>True</PermissionDisplayInMatrix>
+  <PermissionDisplayName>{$permissionnames.createanywhere$}</PermissionDisplayName>
+  <PermissionGUID>648c184d-0f9c-4bb5-98d5-02bf8507b4b1</PermissionGUID>
+  <PermissionName>Create</PermissionName>
+  <PermissionOrder>4</PermissionOrder>
+</cms.classpermission>

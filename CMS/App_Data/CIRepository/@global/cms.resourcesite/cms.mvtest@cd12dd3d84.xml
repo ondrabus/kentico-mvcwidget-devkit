@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.resourcesite>
+  <Parent>
+    <CodeName>CMS.MVTest</CodeName>
+    <GUID>e673e837-394a-45f9-9591-9e75fe757763</GUID>
+    <ObjectType>cms.resource</ObjectType>
+  </Parent>
+  <Bindings>
+    <Binding id="MvcDevkit">
+      <SiteID>
+        <CodeName>MvcDevkit</CodeName>
+        <GUID>991d49f8-cabe-4944-8d6e-669374a75921</GUID>
+        <ObjectType>cms.site</ObjectType>
+      </SiteID>
+    </Binding>
+  </Bindings>
+</cms.resourcesite>

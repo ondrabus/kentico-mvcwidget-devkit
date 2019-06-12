@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.alternativeform>
+  <FormClassID>
+    <CodeName>ecommerce.department</CodeName>
+    <GUID>1c05d8cc-e5b6-4477-b04c-2bcdf7f2ac84</GUID>
+    <ObjectType>cms.class</ObjectType>
+  </FormClassID>
+  <FormCustomizedColumns />
+  <FormDefinition>
+    <form>
+      <field column="DepartmentSiteID" visible="true" visibility="" order="3">
+        <settings>
+          <Options>
+<![CDATA[
+{%SiteContext.CurrentSiteID@%};{$com.onthissiteonly$}
+;{$com.globally$}
+]]>
+          </Options>
+          <SortItems>False</SortItems>
+          <EditText>False</EditText>
+        </settings>
+        <properties>
+          <visiblemacro ismacro="true">
+            <![CDATA[{%Settings.CMSStoreAllowGlobalDepartments && CurrentUser.IsAuthorizedPerResource("CMS.Ecommerce","ConfigurationGlobalModify") && CurrentUser.IsAuthorizedPerResource("CMS.Ecommerce","ConfigurationModify")|(identity)GlobalAdministrator|(hash)0f8ff773529ec21886a3ccd5b6509351f57192dc9c58f46101238545073b0b7a%}]]>
+          </visiblemacro>
+          <defaultvalue ismacro="true">
+<![CDATA[
+{% if (!Settings.CMSStoreAllowGlobalDepartments
+    || !CurrentUser.IsAuthorizedPerResource("CMS.Ecommerce","ConfigurationGlobalModify")
+    || CurrentUser.IsAuthorizedPerResource("CMS.Ecommerce","ConfigurationModify")) {SiteContext.CurrentSiteID} |(identity)GlobalAdministrator|(hash)bb99364609dfbb517a146b4b5dd6131fda8fbc2e8cd87f17995710b5d4d40013%}
+]]>
+          </defaultvalue>
+          <fieldcaption>{$com.available$}</fieldcaption>
+        </properties>
+      </field>
+      <field column="DepartmentDefaultTaxClassID" order="4" />
+      <field column="DepartmentGUID" order="5" />
+      <field column="DepartmentLastModified" order="6" />
+    </form>
+  </FormDefinition>
+  <FormDisplayName>Quick add</FormDisplayName>
+  <FormGUID>b37b0411-ce46-4652-ab01-7889c750eea7</FormGUID>
+  <FormHideNewParentFields>False</FormHideNewParentFields>
+  <FormIsCustom>False</FormIsCustom>
+  <FormName>quickadd</FormName>
+</cms.alternativeform>

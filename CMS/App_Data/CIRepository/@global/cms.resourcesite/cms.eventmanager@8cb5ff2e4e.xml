@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.resourcesite>
+  <Parent>
+    <CodeName>CMS.EventManager</CodeName>
+    <GUID>67c2d259-8f33-4c1f-b725-5eebcb332fcc</GUID>
+    <ObjectType>cms.resource</ObjectType>
+  </Parent>
+  <Bindings>
+    <Binding id="MvcDevkit">
+      <SiteID>
+        <CodeName>MvcDevkit</CodeName>
+        <GUID>991d49f8-cabe-4944-8d6e-669374a75921</GUID>
+        <ObjectType>cms.site</ObjectType>
+      </SiteID>
+    </Binding>
+  </Bindings>
+</cms.resourcesite>

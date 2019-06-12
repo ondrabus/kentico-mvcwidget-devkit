@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.resourcesite>
+  <Parent>
+    <CodeName>CMS.DataProtection</CodeName>
+    <GUID>8089f9a7-95d9-4e3c-b95a-91a49ccf10c4</GUID>
+    <ObjectType>cms.resource</ObjectType>
+  </Parent>
+  <Bindings>
+    <Binding id="MvcDevkit">
+      <SiteID>
+        <CodeName>MvcDevkit</CodeName>
+        <GUID>991d49f8-cabe-4944-8d6e-669374a75921</GUID>
+        <ObjectType>cms.site</ObjectType>
+      </SiteID>
+    </Binding>
+  </Bindings>
+</cms.resourcesite>

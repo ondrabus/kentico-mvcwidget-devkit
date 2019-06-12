@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- This is a CI serialization file for /Homepage -->
+<cms.documentlocalization>
+  <DocumentContent />
+  <DocumentCreatedByUserID>
+    <CodeName>administrator</CodeName>
+    <GUID>6415b8ce-8072-4bcd-8e48-9d7178b826b7</GUID>
+    <ObjectType>cms.user</ObjectType>
+  </DocumentCreatedByUserID>
+  <DocumentCreatedWhen>2019-06-11 07:25:10Z</DocumentCreatedWhen>
+  <DocumentCulture>en-US</DocumentCulture>
+  <DocumentGUID>59f0b47f-3cd2-4026-a288-cbf53482afba</DocumentGUID>
+  <DocumentInheritsStylesheet>True</DocumentInheritsStylesheet>
+  <DocumentMenuItemHideInNavigation>False</DocumentMenuItemHideInNavigation>
+  <DocumentModifiedByUserID>
+    <CodeName>administrator</CodeName>
+    <GUID>6415b8ce-8072-4bcd-8e48-9d7178b826b7</GUID>
+    <ObjectType>cms.user</ObjectType>
+  </DocumentModifiedByUserID>
+  <DocumentModifiedWhen>2019-06-11 07:25:10Z</DocumentModifiedWhen>
+  <DocumentName>Homepage</DocumentName>
+  <DocumentNodeID>
+    <CodeName>/Homepage</CodeName>
+    <GUID>6a5ca139-7b50-4d09-800c-fe210e15edeb</GUID>
+    <ObjectType>cms.node</ObjectType>
+    <Site>
+      <CodeName>MvcDevkit</CodeName>
+      <GUID>991d49f8-cabe-4944-8d6e-669374a75921</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </DocumentNodeID>
+  <DocumentPriority>0</DocumentPriority>
+  <DocumentShowInSiteMap>True</DocumentShowInSiteMap>
+  <DocumentUrlPath />
+  <DocumentUseNamePathForUrlPath>False</DocumentUseNamePathForUrlPath>
+  <DocumentWildcardRule />
+</cms.documentlocalization>

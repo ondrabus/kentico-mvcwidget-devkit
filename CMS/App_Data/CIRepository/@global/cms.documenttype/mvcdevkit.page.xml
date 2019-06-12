@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.documenttype>
+  <ClassCodeGenerationSettings>
+    <Data>
+      <NameSpace>MvcDevkit</NameSpace>
+    </Data>
+  </ClassCodeGenerationSettings>
+  <ClassDisplayName>Page</ClassDisplayName>
+  <ClassFormDefinition>
+    <form version="2">
+      <field column="PageID" columntype="integer" guid="1c581f86-6670-4f4a-8bcd-237debb81e30" isPK="true" publicfield="false">
+        <properties>
+          <fieldcaption>PageID</fieldcaption>
+        </properties>
+        <settings>
+          <controlname>labelcontrol</controlname>
+        </settings>
+      </field>
+      <field column="PageTitle" columnsize="200" columntype="text" guid="5d5a1210-9e8a-42a0-a9f4-9d7773d63a7a" publicfield="false" visible="true">
+        <properties>
+          <fieldcaption>Title</fieldcaption>
+        </properties>
+        <settings>
+          <AutoCompleteEnableCaching>False</AutoCompleteEnableCaching>
+          <AutoCompleteFirstRowSelected>False</AutoCompleteFirstRowSelected>
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem>False</AutoCompleteShowOnlyCurrentWordInCompletionListItem>
+          <controlname>TextBoxControl</controlname>
+          <FilterMode>False</FilterMode>
+          <Trim>False</Trim>
+        </settings>
+      </field>
+    </form>
+  </ClassFormDefinition>
+  <ClassGUID>d8a85364-8eb3-474b-a0b8-6c9a4ff26087</ClassGUID>
+  <ClassIconClass>icon-doc-o</ClassIconClass>
+  <ClassInheritsFromClassID>0</ClassInheritsFromClassID>
+  <ClassIsContentOnly>True</ClassIsContentOnly>
+  <ClassIsCoupledClass>True</ClassIsCoupledClass>
+  <ClassIsCustomTable>False</ClassIsCustomTable>
+  <ClassIsDocumentType>True</ClassIsDocumentType>
+  <ClassIsForm>False</ClassIsForm>
+  <ClassIsMenuItemType>True</ClassIsMenuItemType>
+  <ClassName>MvcDevkit.Page</ClassName>
+  <ClassNodeNameSource>PageTitle</ClassNodeNameSource>
+  <ClassSearchContentColumn>DocumentContent</ClassSearchContentColumn>
+  <ClassSearchCreationDateColumn>DocumentCreatedWhen</ClassSearchCreationDateColumn>
+  <ClassSearchEnabled>True</ClassSearchEnabled>
+  <ClassSearchSettings>
+    <search>
+      <item azurecontent="False" azureretrievable="True" azuresearchable="False" content="False" id="0b7cda25-60c3-4a2e-bd71-3aa36ba9ad5d" name="PageID" searchable="True" tokenized="False" />
+      <item azurecontent="True" azureretrievable="False" azuresearchable="True" content="True" id="9f665496-c61d-4023-9139-4951562a3c00" name="PageTitle" searchable="False" tokenized="True" />
+    </search>
+  </ClassSearchSettings>
+  <ClassSearchTitleColumn>DocumentName</ClassSearchTitleColumn>
+  <ClassShowAsSystemTable>False</ClassShowAsSystemTable>
+  <ClassTableName>MvcDevkit_Page</ClassTableName>
+  <ClassURLPattern>/home</ClassURLPattern>
+  <ClassUsePublishFromTo>True</ClassUsePublishFromTo>
+  <ClassUsesVersioning>False</ClassUsesVersioning>
+</cms.documenttype>

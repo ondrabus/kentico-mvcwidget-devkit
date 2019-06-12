@@ -29,7 +29,11 @@ Thumbs.db
 # Visual Studio 2015 cache/options directory
 .vs/
 
-CMS/
+!CMS/
+CMS/*
+!CMS/App_Data
+CMS/App_Data/*
+!CMS/App_Data/CIRepository
 Lib/
 packages/
 MvcDevkit.Mvc/App_Data/CIRepository
