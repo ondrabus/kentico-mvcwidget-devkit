@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28729.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcDevkit.Mvc", "MvcDevkit.Mvc\MvcDevkit.Mvc.csproj", "{A17CE8F0-DD74-4764-8A38-780B7D1C1CBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomWidget", "CustomWidget\CustomWidget.csproj", "{331D049D-E0CB-44A3-9815-8D73968D94F5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A17CE8F0-DD74-4764-8A38-780B7D1C1CBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A17CE8F0-DD74-4764-8A38-780B7D1C1CBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A17CE8F0-DD74-4764-8A38-780B7D1C1CBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A17CE8F0-DD74-4764-8A38-780B7D1C1CBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{331D049D-E0CB-44A3-9815-8D73968D94F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{331D049D-E0CB-44A3-9815-8D73968D94F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{331D049D-E0CB-44A3-9815-8D73968D94F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{331D049D-E0CB-44A3-9815-8D73968D94F5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C1342563-DFE3-41A0-8CDD-D668D9AC6D91}
+	EndGlobalSection
+EndGlobal

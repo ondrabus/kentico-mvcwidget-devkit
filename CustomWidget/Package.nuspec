@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Kentico.Mvcwidget.GiphySelector</id>
+    <version>12.0.0</version>
+    <authors>Ondrabus</authors>
+    <owners>Ondrabus</owners>
+    <projectUrl>https://github.com/ondrabus/kentico-mvcwidget-giphy-selector</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Giphy selector for Kentico MVC</description>
+    <releaseNotes>Initial release</releaseNotes>
+    <copyright>Copyright 2019</copyright>
+    <tags>Kentico MVC widget Giphy</tags>
+    <dependencies>
+      <dependency id="Kentico.Libraries" version="12.0.0" />
+      <dependency id="vue" version="2.5.17" />
+    </dependencies>
+  </metadata>
+  <files>
+	<file src="bin\Debug\GiphySelector.dll" target="lib\net461\GiphySelector.dll" />
+	<file src="Views\Shared\Widgets\GiphySelectorWidget\_GiphySelectorSearchBox.cshtml" target="content\Views\Shared\Widgets\GiphySelectorWidget\_GiphySelectorSearchBox.cshtml" />
+	<file src="Views\Shared\Widgets\GiphySelectorWidget\_GiphySelectorWidget.cshtml" target="content\Views\Shared\Widgets\GiphySelectorWidget\_GiphySelectorWidget.cshtml" />
+	<file src="Content\Widgets\GiphySelector\giphySelector.css" target="content\Content\Widgets\GiphySelector\giphySelector.css" />
+  </files>
+</package>
